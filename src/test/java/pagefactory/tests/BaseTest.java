@@ -10,13 +10,14 @@ import pagefactory.ProductCatalogPage;
 import util.DriverManager;
 import util.PropertiesReader;
 
+import static io.github.bonigarcia.wdm.WebDriverManager.chromedriver;
+
 public class BaseTest {
     private WebDriver driver;
 
     @BeforeTest
     public void setUp() {
-        PropertiesReader propertiesReader = new PropertiesReader();
-        System.setProperty(propertiesReader.getDriverName(), propertiesReader.getDriverLocation());
+        chromedriver().setup();
     }
 
     @BeforeMethod
