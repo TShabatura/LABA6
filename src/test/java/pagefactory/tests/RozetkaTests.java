@@ -14,7 +14,7 @@ import java.util.*;
 import java.util.stream.Stream;
 
 public class RozetkaTests extends BaseTest {
-    @DataProvider(name = "rozetkaFilters", parallel = true)
+    @DataProvider(name = "rozetkaFilters", parallel = false)
     public Iterator<Object[]> rozetkaFilters(){
         List<RozetkaFilter> rozetkaFilters = new XmlToObject().getInputData();
         return Stream.of(
