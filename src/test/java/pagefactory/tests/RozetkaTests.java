@@ -14,7 +14,6 @@ import util.XmlToObject;
 import java.util.*;
 import java.util.stream.Stream;
 
-@Listeners({util.CustomListener.class})
 public class RozetkaTests extends BaseTest {
     @DataProvider(name = "rozetkaFilters", parallel = false)
     public Iterator<Object[]> rozetkaFilters(){
