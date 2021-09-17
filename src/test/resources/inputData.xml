@@ -10,19 +10,19 @@
         <producer> Acer </producer>
         <totalAmount> 100000 </totalAmount>
     </rozetkaFilter>
-    <rozetkaFilter>
-        <groupOfThings> Телефон </groupOfThings>
-        <producer> Samsung </producer>
-        <totalAmount> 50000 </totalAmount>
-    </rozetkaFilter>
-    <rozetkaFilter>
-        <groupOfThings> Холодильник </groupOfThings>
-        <producer> LG </producer>
-        <totalAmount> 30000 </totalAmount>
-    </rozetkaFilter>
-    <rozetkaFilter>
-        <groupOfThings> Кондиціонер </groupOfThings>
-        <producer> Bosch </producer>
-        <totalAmount> 100000 </totalAmount>
-    </rozetkaFilter>
+<!--    <rozetkaFilter>-->
+<!--        <groupOfThings> Телефон </groupOfThings>-->
+<!--        <producer> Samsung </producer>-->
+<!--        <totalAmount> 50000 </totalAmount>-->
+<!--    </rozetkaFilter>-->
+<!--    <rozetkaFilter>-->
+<!--        <groupOfThings> Холодильник </groupOfThings>-->
+<!--        <producer> LG </producer>-->
+<!--        <totalAmount> 30000 </totalAmount>-->
+<!--    </rozetkaFilter>-->
+<!--    <rozetkaFilter>-->
+<!--        <groupOfThings> Кондиціонер </groupOfThings>-->
+<!--        <producer> Bosch </producer>-->
+<!--        <totalAmount> 100000 </totalAmount>-->
+<!--    </rozetkaFilter>-->
 </inputData>
