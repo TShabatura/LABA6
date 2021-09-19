@@ -1,8 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-    <listeners>
-        <listener class-name="util.CustomListener"/>
-    </listeners>
     <test name="Test">
         <classes>
             <class name="pagefactory.tests.RozetkaTests">
